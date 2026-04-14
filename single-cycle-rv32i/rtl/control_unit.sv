@@ -179,6 +179,8 @@ module control_unit (
 
 	// alu decoder
 	always_comb begin
+	
+		alu_control = 4'b0000; 
 		
 		case (alu_op)
 	
