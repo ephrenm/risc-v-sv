@@ -21,7 +21,7 @@ package rv32i_definition_library;
 	typedef enum logic [2:0] {
 		// R-Type
 		FUNCT3_ADD_SUB		= 3'b000, // ADD & SUB
-		FUNCT3_SLLI			= 3'b001,
+		FUNCT3_SLL			= 3'b001,
 		FUNCT3_SLT 			= 3'b010,
 		FUNCT3_SLTU			= 3'b011,
 		FUNCT3_XOR			= 3'b100,
