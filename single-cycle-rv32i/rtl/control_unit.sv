@@ -24,6 +24,7 @@ module control_unit (
 	
 	assign pc_source = jump | (branch & alu_zero);
 
+	// Main Decoder
 	always_comb begin
 		mem_write = 1'b0;		
 		alu_source = 1'b0;		

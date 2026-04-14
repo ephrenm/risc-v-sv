@@ -1,12 +1,6 @@
-// R-Type: 0110011
-// I-Type: 0010011
-// S-Type: 0100011
-// B-Type: 1100011
-// U-Type: 0110111
-// JAL:	   1101111
-// JALR:   1100111
-// LUI:	   0110111
-// AUIPC:  0010111
+// Author: Ephren Manning 
+// Package containing logic definitions for OP-codes, funct3, funct7 and ALU control
+
 
 package rv32i_definition_library;
 
